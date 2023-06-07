@@ -37,3 +37,38 @@ nav {
   height: 30px;
   margin-right: 7px;
 }
+
+.main {
+  background: #272E34;
+  height: 100vh;
+  padding: 4rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h1 {
+  color: #FCFFFF;
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+
+.main ul {
+  color: #FCFFFF;
+  opacity: .7;
+  font-size: 1.5rem;
+  margin-left: 6rem;
+  list-style-type: none;
+}
+
+.main ul li {
+  margin-top: 1rem;
+}
+
+.main ul li::before {
+  content: "\2022";
+  color: #60DBFA;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
