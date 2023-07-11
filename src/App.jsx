@@ -5,9 +5,9 @@ import Main
 export default function App() {
 
   return (
-    <>
-      <Navbar />
-      <Main />
-    </>
+    <div className="container">
+            <Navbar />
+            <Main />
+    </div>
   )
 }
